@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #7788D1; /* Sleek dark theme */
+    color: #f8fafc;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #38bdf8;
+
+
+#menu, #timerSection, #musicSection {
+    background: #1e293b;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #7dd3fc;
+}
+
+input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #475569;
+    background: #0f172a;
+    color: white;
+    width: 80px;
+    text-align: center;
+}
+
+#timerDisplay {
+    font-size: 3rem;
+    margin-top: 15px;
+    color: #34d399;
+}
+
+iframe {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    margin-top: 15px;
+}
+}

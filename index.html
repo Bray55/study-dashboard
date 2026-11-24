@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Study Dashboard(made by Brayden kelly)</h1>
+
+    <!-- Option Selection Area -->
+    <div id="menu">
+        <h3>Choose an Option:</h3>
+        <button id="timerBtn">Timer</button>
+        <button id="musicBtn">Music</button>
+
+    </div>
+
+    <!-- Timer Section (Hidden until Timer is clicked) -->
+    <div id="timerSection" style="display: none;">
+        <h3>Timer</h3>
+        <label for="minuteInput">Enter minutes:</label>
+        <input type="number" id="minuteInput" min="1" value="1">
+        <button id="startTimerBtn">Start Timer</button>
+        <h2 id="timerDisplay">0</h2>
+    </div>
+
+    <!-- Music Section (Hidden until Music is clicked) -->
+    <div id="musicSection" style="display: none;">
+        <h3>Choose Music Type:</h3>
+        <button id="lofiBtn">Lofi</button>
+        <button id="whiteNoiseBtn">White Noise</button>
+    </div>
+
+    <!-- YouTube Music Players (Hidden by default) -->
+    <div style="margin-top: 20px;">
+        <iframe id="lofiMusic" width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/JCKBaJDRMw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe id="whiteNoise" width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/Og40mpl8VNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+
+    <!-- Connects your JavaScript file -->
+    <script src="/app.js"></script>
+</body>
+</html>
