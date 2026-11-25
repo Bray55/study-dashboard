@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', monospace;
-    background-color: #7788D1; /* Sleek dark theme */
+    background-color: #1d202eb4; /* Sleek dark theme */
     color: #f8fafc;
     margin: 0;
     padding: 40px;
@@ -13,7 +13,7 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #38bdf8;
-
+}
 
 #menu, #timerSection, #musicSection {
     background: #1e293b;
@@ -62,5 +62,4 @@ iframe {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     margin-top: 15px;
-}
 }

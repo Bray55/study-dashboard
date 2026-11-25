@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-< lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>My App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Study Dashboard(made by Brayden kelly)</h1>
+    <h1>Study Dashboard();</h1>
 
     <!-- Option Selection Area -->
     <div id="menu">
         <h3>Choose an Option:</h3>
         <button id="timerBtn">Timer</button>
         <button id="musicBtn">Music</button>
+        <button id="toDoBtn">To-Do List</button>
 
     </div>
 
@@ -39,9 +40,18 @@
         <iframe id="whiteNoise" width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/Og40mpl8VNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-</body>
+    <div id ="toDoSection" style="display: none;">
+        <h3>To-Do List</h3>
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button id="addTaskBtn">Add Task</button>
+        <ul id="taskList"></ul>
+        </div>
+
+
+
+
 
     <!-- Connects your JavaScript file -->
-    <script src="/app.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
